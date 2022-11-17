@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this will teach you how to make forms layout">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--shows icon of the website-->
+    <title>Making Form</title>
+</head>
+<body>
+    <div>
+        <h1>Travel Form For The Trip</h1>
+        <form action="form.php">
+
+            <input type="text" placeholder="enter your name"><br>
+            <input type="text" placeholder="enter your fav word"><br>
+
+            <labe for="sectiona">
+                <input type="radio" value="section a" id="sectiona" name="section"> Section A
+            </label>
+            <label for="sectionb">
+                <input type="radio" value="section b" id="sectionb" name="section"> Section B
+            </label>
+            <label for="sectionc">
+                <input type="radio" value="section c" id="sectionc" name="section"> Section C
+            </label><br>
+            <label for="canteencard">Want Canteen Card</label>
+            <input type="checkbox" name="CanteenCard" id="canteencard" class="red"><br>
+
+            <!--Check MND refrence to stufy more about TYPES, ATTRIBUTRS, TAGS etc-->
+
+            <textarea name="explain" id="explain" placeholder="explain why you want to join" cols="30" rows="10"></textarea><br>
+
+            <select name="car" id="car">
+                <option value="no car">select your car</option>
+                <option value="ferrari">ferrari</option>
+                <option value="thar">thar</option>
+                <option value="grand i10">grand i10</option>
+            </select>
+
+        </form>
+    </div>
+</body>
+</html>
