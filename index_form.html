@@ -11,12 +11,15 @@
 <body>
     <div>
         <h1>Travel Form For The Trip</h1>
-        <form action="form.php">
-
-            <input type="text" placeholder="enter your name"><br>
-            <input type="text" placeholder="enter your fav word"><br>
-
-            <labe for="sectiona">
+        <form action="form.php"> 
+            <div>            
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div>
+                <input type="text" placeholder="enter your fav word">
+            </div>
+            
+            <label for="sectiona">
                 <input type="radio" value="section a" id="sectiona" name="section"> Section A
             </label>
             <label for="sectionb">
@@ -38,7 +41,10 @@
                 <option value="thar">thar</option>
                 <option value="grand i10">grand i10</option>
             </select>
-
+            <div>
+                <input type="submit" value="submit form">
+                <input type="reset" value="Reset now">
+            </div>
         </form>
     </div>
 </body>
