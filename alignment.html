@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>                        /*container for all the four items */
+        .container{                /*[.] for class*/
+          width: 900px;            /*[#] for id*/
+          border: solid rgb(52, 15, 15);
+          margin:auto;             /*[margin:auto] to bring container at centre*/
+          background-color: bisque;
+        }
+        .item{
+            border: 3px solid rgb(116, 50, 50);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(245, 205, 205);
+        }
+        #fruit{
+            float:right;
+            width:48%;     /*duno left right floats ki width code krni padegi[compulsion]*/
+        }
+        #car{
+            float:left;
+            width:48%;
+        }
+        #colour{
+           clear:both;
+        }
+        p,h3{
+            /*text-align: right;*/
+            text-align:left;
+        }
+        h1{
+            margin:23px auto;
+            width:455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">   <!--container division ke andr eak aur divisions of items-->
+        <h1>welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>fruits</h3>
+            <p1 id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum at reiciendis laborum numquam consequuntur eos dolorum mollitia vero vel. Aliquid nam quae beatae distinctio consectetur quia temporibus iure amet praesentium aperiam nostrum, mollitia enim labore ipsam ullam perferendis vitae.</p1>
+        </div>
+
+        <div id="car" class="item">
+            <h3>car</h3>
+            <p1 id="carspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis est iure deserunt laudantium nemo! Exercitationem sed fuga ratione autem accusantium distinctio repellendus tempora incidunt illo ipsa? Odio delectus hic beatae magni unde cumque neque cum repellat, labore in! Officia.</p1>
+        </div>
+
+        <div id="colour" class="item">
+            <h3>colours</h3>
+            <p1 id="colourspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure vitae odit assumenda iste consequatur, reprehenderit quis aperiam voluptates eligendi et soluta maxime impedit qui? Aspernatur temporibus repellat voluptas recusandae nesciunt mollitia id architecto! Autem quis molestiae amet soluta quod.</p1>
+        </div>
+
+        <div id="me" class="item">
+            <h3>myself</h3>
+            <p1 id="mepara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure atque modi libero minima dolorem aliquid et totam aspernatur quidem odit, temporibus eligendi quaerat porro, quam illum fugiat. Omnis nesciunt praesentium repellat deserunt beatae quas, dicta esse animi eaque officia?</p1>
+        </div>
+    </div>
+</body>
+</html>
